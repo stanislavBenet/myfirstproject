@@ -53,6 +53,7 @@
 
 - Данные пользователей:
 
+
   - для роли buyer (он же customer):
     - email: buyer@gmail.com
     - password: buyer@gmail.com
