@@ -3,7 +3,12 @@ const serverIP = 'localhost';
 const serverPort = 5000;
 
 const constants = {
-  PHONE:"(877) 355-3585",
+  HB_COLLECTION_NAME: {
+    CATEGORIES: 'Top Categories',
+    INDUSTRY: 'Top Industry',
+    IDEAS: 'Top Ideas',
+  },
+  PHONE: '(877) 355-3585',
   CUSTOMER: 'customer',
   CREATOR: 'creator',
   CONTEST_STATUS_ACTIVE: 'active',

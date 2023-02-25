@@ -1,9 +1,12 @@
 {
+  "title": "Largest Collection of Brandable Names",
+  "descriptionTitle": "   Explore themed brand name collections created by our experienced team of branding experts",
   "TopCategories": [
     {
       "imgPath": "categories/c1.svg",
       "alt": "Domains",
-      "content": "Popular Brandable Domains"
+      "content": "Popular Brandable Domains",
+      "to": "/login"
     },
     {
       "imgPath": "categories/c2.svg",
