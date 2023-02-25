@@ -1,0 +1,128 @@
+{
+  "TopCategories": [
+    {
+      "imgPath": "categories/c1.svg",
+      "alt": "Domains",
+      "content": "Popular Brandable Domains"
+    },
+    {
+      "imgPath": "categories/c2.svg",
+      "alt": "ShortDomains ",
+      "content": "Short Domains"
+    },
+    {
+      "imgPath": "categories/c3.svg",
+      "alt": "3LetterDomains ",
+      "content": "3 Letter Domains "
+    },
+    {
+      "imgPath": "categories/c4.svg",
+      "alt": "4LetterDomains ",
+      "content": "4 Letter Domains "
+    },
+    {
+      "imgPath": "categories/c5.svg",
+      "alt": "5LetterDomains ",
+      "content": "5 Letter Domains "
+    },
+    {
+      "imgPath": "categories/c6.svg",
+      "alt": "OneWordDomains",
+      "content": "One Word Domains"
+    },
+    {
+      "imgPath": "categories/c7.svg",
+      "alt": "UltraPremiumDomains ",
+      "content": "Ultra Premium Domains "
+    },
+    {
+      "imgPath": "categories/c8.svg",
+      "alt": "OnSale",
+      "content": "OnSale"
+    }
+  ],
+  "TopIndustry": [
+    {
+      "imgPath": "industry/fashionClothing1.webp",
+      "alt": "fashionClothing",
+      "content": "Fashion & Clothing Domains"
+    },
+    {
+      "imgPath": "industry/beautyCosmetics2.webp",
+      "alt": "beautyCosmetics",
+      "content": "Beauty & Cosmetics Domains"
+    },
+    {
+      "imgPath": "industry/Agency3.webp",
+      "alt": "Agency",
+      "content": "Agency & Consulting Domains"
+    },
+    {
+      "imgPath": "industry/finance4.webp",
+      "alt": "finance",
+      "content": "Finance Domains"
+    },
+    {
+      "imgPath": "industry/foodBeverage5.webp",
+      "alt": "foodBeverage",
+      "content": "Food & Drink Domains"
+    },
+    {
+      "imgPath": "industry/healtMedical6.webp",
+      "alt": "healtMedical",
+      "content": "Health & Wellness Domains"
+    },
+    {
+      "imgPath": "industry/ecommerceRetail7.webp",
+      "alt": "ecommerceRetail",
+      "content": "E-Commerce & Retail Domains"
+    },
+    {
+      "imgPath": "industry/technology8.webp",
+      "alt": "technology",
+      "content": "Tech, Internet, Software Domains"
+    }
+  ],
+  "TopIdeas": [
+    {
+      "imgPath": "ideas/other1.jpg",
+      "alt": "SmartDomains",
+      "content": "Smart Domains"
+    },
+    {
+      "imgPath": "ideas/Agency2.jpg",
+      "alt": "Luxury Domains",
+      "content": "LuxuryDomains"
+    },
+    {
+      "imgPath": "ideas/other3.jpg",
+      "alt": "StyleDomains",
+      "content": "Style Domains"
+    },
+    {
+      "imgPath": "ideas/other4.jpg",
+      "alt": "CareDomains",
+      "content": "Care Domains"
+    },
+    {
+      "imgPath": "ideas/other5.jpg",
+      "alt": "WishDomains",
+      "content": "Wish Domains"
+    },
+    {
+      "imgPath": "ideas/other6.jpg",
+      "alt": "TrendDomains",
+      "content": "Trend Domains"
+    },
+    {
+      "imgPath": "ideas/other7.jpg",
+      "alt": "Pure Domains",
+      "content": "PureDomains"
+    },
+    {
+      "imgPath": "ideas/other8.jpg",
+      "alt": "GrowDomains",
+      "content": "Grow Domains"
+    }
+  ]
+}

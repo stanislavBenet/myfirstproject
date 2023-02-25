@@ -44,6 +44,7 @@ const Home = (props) => {
         <Spinner mtop />
       ) : (
         <>
+        <HbCollection />
           <div className={styles.container}>
             <div className={styles.headerBar}>
               <div className={styles.headline}>
@@ -98,7 +99,7 @@ const Home = (props) => {
                 />
               </div>
             </div>
-            <HbCollection />
+            
             <GreenContainer>
               <TwoStep />
             </GreenContainer>
