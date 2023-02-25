@@ -16,6 +16,7 @@ import GreenContainer from '../../components/Containers/GreenContainer';
 import TwoStep from '../../components/Steps/TwoStep';
 import styles from './Home.module.sass';
 import HbCollection from '../../components/HbCollection';
+import Fag from '../../components/Fag';
 
 const Home = (props) => {
   const [index, setIndex] = useState(0);
@@ -44,7 +45,8 @@ const Home = (props) => {
         <Spinner mtop />
       ) : (
         <>
-        <HbCollection />
+          <Fag />
+          <HbCollection />
           <div className={styles.container}>
             <div className={styles.headerBar}>
               <div className={styles.headline}>
@@ -99,7 +101,7 @@ const Home = (props) => {
                 />
               </div>
             </div>
-            
+
             <GreenContainer>
               <TwoStep />
             </GreenContainer>
