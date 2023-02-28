@@ -92,6 +92,8 @@ img {
 .imgContains {
   color: #343434;
 
+  display: block;
+
   margin: 0 -20px;
   display: flex;
   flex-wrap: wrap;
@@ -133,9 +135,7 @@ img {
   transition: all ease 0.3s;
 }
 
-.none {
-  display: none;
-}
+
 
 .show {
   display: flex;

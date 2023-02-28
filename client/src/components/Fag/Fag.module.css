@@ -1,0 +1,120 @@
+.faqBlock {
+  color: #000;
+  line-height: 1.5;
+
+  font-size: 14px;
+  font-family: 'Product Sans', sans-serif;
+  font-weight: 400;
+
+  padding: 60px 0 60px 0;
+  margin: 0 0 0 0;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.faqInner {
+  max-width: 830px;
+  margin: 0 auto;
+}
+
+.caption {
+  font-size: 24px;
+  font-weight: 700;
+
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+
+.faqItem {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  transition: all ease 0.5s;
+  margin: 0 0 16px 0;
+}
+
+.active {
+  color: white;
+  background-color: #307df6;
+  border: none;
+}
+
+.faqCaption {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  padding: 30px 70px 30px 40px;
+  position: relative;
+  cursor: pointer;
+  transition: all ease 0.5s;
+  border-radius: 16px;
+}
+
+.faqCaption::before {
+  width: 25px;
+  height: 25px;
+  content: '';
+  display: block;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  margin: -12px 0 0 0;
+  background-image: url(https://www.squadhelp.com/html/html/static_images/icon-plus.svg);
+  background-position: center center;
+}
+
+.faqCaptionActive {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  padding: 30px 70px 30px 40px;
+  position: relative;
+  cursor: pointer;
+  transition: all ease 0.5s;
+  border-radius: 16px;
+}
+
+.faqCaptionActive::before {
+  width: 25px;
+  height: 25px;
+  content: '';
+  display: block;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  margin: -12px 0 0 0;
+  background-image: url(https://www.squadhelp.com/html/html/static_images/icon-close.svg);
+  background-position: center center;
+}
+
+.faqCaption::focus-visible {
+  outline: -webkit-focus-ring-color auto 1px;
+}
+
+.faqContent {
+  display: none;
+  padding: 0 40px 40px 40px;
+}
+
+.faqContent li {
+  margin: 0;
+  font-size: 16px;
+  color: #fff;
+  padding-top: 20px;
+}
+
+.none {
+  display: none;
+}
+
+.show {
+  display: block;
+}

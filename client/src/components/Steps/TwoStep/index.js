@@ -5,7 +5,7 @@ import styles from './TwoStep.module.sass';
 const TwoStep = () => {
   return (
     <>
-      <div className={styles.step}>
+      <article className={styles.step}>
         <img
           src={`${CONSTANTS.STATIC_IMAGES_PATH}gif/2-compressed-new.gif`}
           alt="compressed"
@@ -21,7 +21,7 @@ const TwoStep = () => {
             <span>Names automatically checked for URL availability</span>
           </p>
         </div>
-      </div>
+      </article>
     </>
   );
 };

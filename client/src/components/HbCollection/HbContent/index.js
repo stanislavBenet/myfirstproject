@@ -14,6 +14,7 @@ const { TopCategories, TopIdeas, TopIndustry } = data;
 
 const HbContent = (props) => {
   const { isClick } = props;
+  const acsess = isClick.map((item) => item.isChange);
 
   const mapContent = (elem) => {
     return (
@@ -35,31 +36,22 @@ const HbContent = (props) => {
     );
   };
 
-  const classNamesTopCategories = cx(styles.imgContains, styles.none, {
-    [styles.show]: isClick.some(
-      (elem) => elem.isChange === true && elem.name === CATEGORIES
-    ),
-  });
-
-  const classNamesTopIdeas = cx(styles.imgContains, styles.none, {
-    [styles.show]: isClick.some(
-      (elem) => elem.isChange === true && elem.name === IDEAS
-    ),
-  });
-
-  const classNamesTopIndustry = cx(styles.imgContains, styles.none, {
-    [styles.show]: isClick.some(
-      (elem) => elem.isChange === true && elem.name === INDUSTRY
-    ),
-  });
+  const classNamesTopCategories = cx(styles.imgContains, styles.show);
+  const classNamesTopIdeas = cx(styles.imgContains, styles.show);
+  const classNamesTopIndustry = cx(styles.imgContains, styles.show);
 
   return (
     <>
       <div className={classNamesTopCategories}>
-        {TopCategories.map(mapContent)}
+        {acsess[0] && TopCategories.map(mapContent)}
       </div>
-      <div className={classNamesTopIndustry}>{TopIndustry.map(mapContent)}</div>
-      <div className={classNamesTopIdeas}>{TopIdeas.map(mapContent)}</div>
+
+      <div className={classNamesTopIndustry}>
+        {acsess[1] && TopIndustry.map(mapContent)}
+      </div>
+      <div className={classNamesTopIdeas}>
+        {acsess[2] && TopIdeas.map(mapContent)}
+      </div>
     </>
   );
 };
